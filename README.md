@@ -13,7 +13,7 @@ MRAG-Net
 - GPU: Tesla P100-SXM2-16GB
 - CUDA: 11.7
 - Pytorch 1.13.0
-- data：data[[https://pan.baidu.com/s/1NvgOmqIHd7kzcTMGWB08Zw 提取码: r5va]]
+- data：data(https://pan.baidu.com/s/1NvgOmqIHd7kzcTMGWB08Zw 提取码: r5va)
 
 
 ## ✅ Experimental Result
