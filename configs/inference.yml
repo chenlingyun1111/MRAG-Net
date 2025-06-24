@@ -1,0 +1,28 @@
+{
+  ### Environment Parameters
+  debug: false,
+  mode: inference,
+  cuda: true,
+  pin_memory: true,
+  wandb: false,
+  worker: 2,
+  CUDA_VISIBLE_DEVICES: '1',
+
+  ### Train Parameters
+  model_name: 'MRAGNet',
+    n_classes: 1,
+    in_channels: 3,
+    base_c: 64,
+  inference_mode: 'segmentation',
+  task: 'segmentation',
+  dataloader: 'Image2Image_resize',
+  criterion: 'DiceBCE',
+  input_space: 'RGB',
+  input_channel: 3,
+
+  input_size: [512, 512],  # DRIVE:608, STARE:704, CHASE_DB1:1024, HRF: 1344
+  model_path: '',
+  val_x_path: 'data/DRIVE/val/input',
+  val_y_path: 'data/DRIVE/val/label',
+
+}
