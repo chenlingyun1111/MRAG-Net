@@ -1,5 +1,3 @@
-# MRAG-Net
-MRAG-Net
 
 # Multi-scale  Residual Attention Guided Network for Retinal Image Segmentation
 
@@ -13,7 +11,8 @@ MRAG-Net
 - GPU: Tesla P100-SXM2-16GB
 - CUDA: 11.7
 - Pytorch 1.13.0
-- data：data(https://pan.baidu.com/s/1NvgOmqIHd7kzcTMGWB08Zw 提取码: r5va)
+## data
+- data：data(https://pan.baidu.com/s/1NvgOmqIHd7kzcTMGWB08Zw) - r5va
 
 
 ## ✅ Experimental Result
